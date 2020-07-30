@@ -17,4 +17,3 @@ sentence_array.collect do |word|
   end
   reversed_sentence.join(" ")
 end
-
