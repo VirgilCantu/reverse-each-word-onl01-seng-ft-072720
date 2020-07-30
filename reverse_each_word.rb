@@ -4,8 +4,7 @@ reversed_sentence = []
 sentence_array = sentence.split
 # binding.pry
 sentence_array.each do |word|
-  word.reverse
-  reversed_sentence << word
+  reversed_sentence << word.reverse
   end
   reversed_sentence
 end
